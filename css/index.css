@@ -1,0 +1,35 @@
+header {
+    grid-area: header;
+    background-color: lightblue;
+}
+
+
+aside.left {
+    grid-area: left;
+    background-color: lightpink;
+
+}
+
+aside.right {
+    grid-area: right;
+    background-color: lightgoldenrodyellow;
+}
+
+main {
+    grid-area: main;
+    background-color: lightgray;
+}
+
+footer {
+    grid-area: footer;
+    background-color: lightseagreen;
+}
+body {
+    display: grid;
+    grid-template-areas:
+            "header header header"
+            "left main right"
+            "footer footer footer";
+    grid-template-columns: max(200px, 25%) 1fr auto;
+    grid-template-rows: 80px 1fr 80px;
+}
