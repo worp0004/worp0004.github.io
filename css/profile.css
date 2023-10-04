@@ -1,32 +1,34 @@
 header {
-    grid-area: header;
+  grid-area: header;
 
 }
 
 
 
 main {
-    grid-area: main;
-    background-color: lightgray;
+  grid-area: main;
+  background-color: lightgray;
 }
 
 footer {
-    grid-area: footer;
-    background-color: lightseagreen;
-}
-body {
-    display: grid;
-    grid-template-areas:
-            "header header header"
-            "main main main"
-            "footer footer footer";
-    grid-template-columns: max(200px, 25%) 1fr auto;
-    grid-template-rows: 80px 1fr 80px;
+  grid-area: footer;
+  background-color: lightseagreen;
 }
 
-.row{
-background-color: white;
+body {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "main main main"
+    "footer footer footer";
+  grid-template-columns: max(200px, 25%) 1fr auto;
+  grid-template-rows: 80px 1fr 80px;
 }
+
+.row {
+  background-color: white;
+}
+
 .bg-light {
-    padding-bottom: 32px;
+  padding-bottom: 32px;
 }

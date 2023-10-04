@@ -2,71 +2,121 @@
 <html lang="en">
 
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="description" content="Mijn Portfolio">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="Ricardo van de Worp">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/index.css">
-
-    <title>Hello, world!</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/index.css">
+  <title>Portfolio van Ricardo</title>
 
 </head>
 
 <body>
+  <aside class="aside-menu">
+    <ul>
+      <li><a
+          href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/OER-HZ-Bacheloropleidingen-voltijd-2023-2024-DEF-versie-20230720.pdf"
+          target="_blank">Course and Examination Regulations</a></li>
+      <li><a href="https://hz.nl/opleidingen/hbo-ict-deeltijd" target="_blank" >Implementation Regulations</a></li>
+      <li> <a
+          href="https://glaze-donut-5a5.notion.site/Assignment-Specification-661c5ac5d7494328a58be61d00dd41e4#b1d3461c86e843e5bc2cb5ebc5849937"
+          target="_blank">Notion</a></li>
+      <li> <a href="https://teams.microsoft.com/_?culture=en-us&country=us#/school/teams-grid/General?ctx=teamsGrid"
+          target="_blank">Teams</a></li>
+      <li><a href="https://portal.hz.nl/" target="_blank">MyHZ</a></li>
+      <li><a href="https://github.com/HZ-HBO-ICT" target="_blank">Github</a></li>
+    </ul>
+  </aside>
+
+  <div id="main">
+
     <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="index.html">Navbar</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page"  href="index.html" >Home2s</a>
-                        <a class="nav-link"  href="resources/profile.html" >Profile</a>
-                        <a class="nav-link" href="resources/dashboard.html" target="_blank">Dashboard</a>
-                        <a class="nav-link" href="resources/faq.html" target="_blank">FAQ</a>
-                        <a class="nav-link" href="resources/blog.html" target="_blank">Blogs</a>
-                    </div>
-                </div>
+
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link" href="resources/profile.html">Profile</a>
+              <a class="nav-link" href="resources/dashboard.html" target="_blank">Dashboard</a>
+              <a class="nav-link" href="resources/faq.html" target="_blank">FAQ</a>
+              <a class="nav-link" href="resources/blog.html" target="_blank">Blogs</a>
             </div>
-        </nav>
+          </div>
+        </div>
+      </nav>
     </header>
 
-    <aside class="left">
-        <ul class="list-group">
-            <a href="https://hz.nl/over-de-hz/organisatie/regelingen-documenten" target="_blank" class="list-group-item">he HZ HBO-ICT Course and Examination Regulations</a>
-            <a href="#" target="_blank" class="list-group-item">The IR of the HBO-ICT program</a>
-            <a href="https://learn.hz.nl/my/" target="_blank" class="list-group-item">The Learn environment</a>
-            <a href="https://teams.microsoft.com/_?culture=nl-nl&country=nl#/school/teams-grid/General?ctx=teamsGrid" target="_blank" class="list-group-item">The Teams environment</a>
-            <a href="https://hz.osiris-student.nl/#/home" target="_blank" class="list-group-item">MyHZ with your study progress</a>
-            <a href="https://github.com/HZ-HBO-ICT" target="_blank" class="list-group-item">The Github environmen</a>
-           
-        </ul>
-    </aside>
+    <div class='hz image'>
+      <div class='row'>
+        <div class='column'>
+          <img src="/resources/img/hz.png" alt="HZ logo" style="width: 30rem; align-self: center;">
+          </img>
+        </div>
+        <div class='some-page-wrapper'>
+          <div class='row'>
+            <div class='column' style="margin-left: 27px;">
+              <div class="card" style="width: 30rem; padding-top: 70px;">
+                <img src="/resources/img/avans.png" class="card-img-top" alt="Avans logo">
+                <div class="card-body">
+                  <h5 class="card-title">Avans</h5>
+                  <p class="card-text">Hierna heb ik Avans gedaan in Breda ik ben begonnen in het
+                    Corona
+                    jaar dus kon hierdoor 2 jaar online volgen toen werden de lessen weer fysiek en
+                    heb
+                    ik de keuze gemaakt om naar HZ te gaan door de lange reistijd die ik tijdens
+                    Avans
+                    had</p>
+                  <a href="https://www.avans.nl/" class="btn btn-primary">Ga naar Avans</a>
+                </div>
+              </div>
+            </div>
+            <div class='column ' style="margin-right: -250px;">
+              <div class="card" style="width: 30rem;     ">
+                <img src="/resources/img/logo-Scalda.jpg" class="card-img-top" alt="Scalda logo">
+                <div class="card-body">
+                  <h5 class="card-title">Scalda</h5>
+                  <p class="card-text">Ik ben Ricardo ik heb scalda applicatie ontwikkelaar gedaan ik
+                    vond
+                    het niet leuk de opleiding kon iedereen halen en het was niet uitdagend</p>
+                  <a href="#" class="btn btn-primary">Ga naar Scalda</a>
+                </div>
+              </div>
+            </div>'
 
-    <main>
-        Main
-    </main>
+          </div>
 
-    <aside class="right">
-        Right
-    </aside>
+        </div>
 
-    <footer>
-        Footer
-    </footer>
+      </div>
+    </div>
+  </div>
 
 
-    <!-- Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+
 
 
 </body>
