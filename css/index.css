@@ -62,3 +62,19 @@ body {
   flex: 1;
   padding: 20px;
 }
+
+.image-list {
+  list-style: none;
+  padding: 0;
+}
+
+.image-list-item {
+  display: inline-block;
+  margin: 10px;
+  text-align: center;
+}
+
+.image-list-item img {
+  max-width: 100px;
+  height: auto;
+}
